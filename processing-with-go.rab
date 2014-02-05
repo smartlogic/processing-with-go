@@ -1,0 +1,69 @@
+= Processing Data with Go
+
+: author
+   Eric Oestrich
+: institution
+   SmartLogic
+: date
+   2014/02/14
+: allotted-time
+   25m
+: theme
+   default
+
+= What is Go?
+
+Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
+= What is Go?
+
+* Compiled
+* Almost C-like syntax
+
+= How does it compare
+
+* Ruby
+* Java
+
+= Against Ruby
+
+* Compiled
+* Typed variables
+
+= Against Java
+
+* Compiled
+* Variable initialization does not require type
+
+= Clients
+
+* Client 1
+* Client 2
+
+= Client 1
+
+* Sends large amount of emails
+* Ruby takes ~400ms per email
+
+= Client 2
+
+* Processing hundreds of thousands of jobs
+* Ruby took > 20 hrs
+
+= Features of Go
+
+* Very fast
+* Built to be concurrent
+
+= Switching to Go
+
+= Examples
+
+= Lessons Learned
+
+= Next Steps
+
+* Tour of Go
+* Effective Go
+
+= Questions
