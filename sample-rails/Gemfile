@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.0.2'
+
+gem 'database_cleaner'
+gem 'foreigner'
+gem 'foreman'
+gem 'pg'
+gem 'progressbar'
+gem 'resque'
