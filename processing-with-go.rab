@@ -9,7 +9,7 @@
 : allotted-time
    25m
 : theme
-   default
+   smartlogic
 
 = What is Go?
 
@@ -19,33 +19,29 @@ Go is an open source programming language that makes it easy to build simple, re
 
 * Compiled
 * Almost C-like syntax
+* Built from the ground up to be fast
+* Lightweight threads - goroutines
 
 = How does it compare
 
 * Ruby
+  * Compiled
+  * Typed variables
 * Java
-
-= Against Ruby
-
-* Compiled
-* Typed variables
-
-= Against Java
-
-* Compiled
-* Variable initialization does not require type
+  * Compiled
+  * Variable initialization does not require type
 
 = Clients
 
-* Client 1
-* Client 2
+* Client A
+* Client B
 
-= Client 1
+= Client A
 
 * Sends large amount of emails
 * Ruby takes ~400ms per email
 
-= Client 2
+= Client B
 
 * Processing hundreds of thousands of jobs
 * Ruby took > 20 hrs
@@ -54,12 +50,32 @@ Go is an open source programming language that makes it easy to build simple, re
 
 * Very fast
 * Built to be concurrent
+* No unused lines are allowed
+
+= Imports
+
+Source code is your Gemfile or pom.xml
+
+    import (
+      "github.com/benmanns/goworker"
+    )
 
 = Switching to Go
 
+Sidekiq => Goworker
+
 = Examples
 
+To the command line!
+
 = Lessons Learned
+
+* Sometimes fast is too fast
+* Fan out to thousands of small jobs instead of one large job
+
+= Most importantly
+
+Mix up languages
 
 = Next Steps
 
