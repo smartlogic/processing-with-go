@@ -1,3 +1,7 @@
 /.tmp/
 /pkg/
 /pdf/
+
+sample-rails/goworker/goworker
+sample-email/sample-email
+sample-simple/sample-simple
