@@ -15,12 +15,22 @@
 
 Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
-= What is Go?
+= Features of Go
 
 * Compiled
 * Almost C-like syntax
 * Built from the ground up to be fast
-* Lightweight threads - goroutines
+* Built to be concurrent
+  * Lightweight threads - goroutines
+* No unused lines are allowed
+
+= Imports
+
+Source code is your Gemfile or pom.xml
+
+    import (
+      "github.com/benmanns/goworker"
+    )
 
 = How does it compare
 
@@ -46,23 +56,11 @@ Go is an open source programming language that makes it easy to build simple, re
 * Processing hundreds of thousands of jobs
 * Ruby took > 20 hrs
 
-= Features of Go
-
-* Very fast
-* Built to be concurrent
-* No unused lines are allowed
-
-= Imports
-
-Source code is your Gemfile or pom.xml
-
-    import (
-      "github.com/benmanns/goworker"
-    )
-
 = Switching to Go
 
 Sidekiq => Goworker
+
+http://www.goworker.org/
 
 = Examples
 
