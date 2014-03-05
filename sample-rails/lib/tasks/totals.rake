@@ -7,7 +7,7 @@ namespace :totals do
 
     User.create(:name => "user")
 
-    11.times do
+    9.times do
       ActiveRecord::Base.connection.execute %{
         INSERT INTO users (name) (select name from users)
       }

@@ -5,7 +5,7 @@
 : institution
    SmartLogic
 : date
-   2014/02/14
+   2014/03/05
 : allotted-time
    25m
 : theme
@@ -13,13 +13,21 @@
 
 = Eric Oestrich
 
-(('tag:center'))(('tag:x-large')) SmartLogic
+  # image
+  # src = smartlogic.png
+  # width = 500
 
-(('tag:center'))http://smartlogic.io
+(('tag:center'))smartlogic.io
 
 (('tag:center'))@ericoestrich
 
 (('tag:center'))github.com/oestrich
+
+= Agenda
+
+* What is Go?
+* Clients
+* Samples (hold on to your seats)
 
 = What is Go?
 
@@ -48,19 +56,19 @@ Go is an open source programming language that makes it easy to build simple, re
   * Typed variables
 * Java
   * Compiled
-  * Variable initialization does not require type
+  * Type inference
 
 = Clients
 
-* Client A
-* Client B
+* Email Factory
+* Money Mover
 
-= Client A
+= Email Factory
 
 * Sends large amount of emails
 * Ruby takes ~400ms per email
 
-= Client B
+= Money Mover
 
 * Processing hundreds of thousands of jobs
 * Ruby took > 20 hrs
@@ -69,11 +77,13 @@ Go is an open source programming language that makes it easy to build simple, re
 
 Sidekiq/Resque => Goworker
 
-http://www.goworker.org/
+goworker.org/
 
 = Examples
 
-To the command line!
+* Hello World!
+* Sending an email
+* Resque jobs
 
 = Lessons Learned
 
@@ -86,15 +96,17 @@ Mix up languages
 
 = Next Steps
 
-* Tour of Go
-* Effective Go
+* Tour of Go (tour.golang.org/)
+* Effective Go (golang.org/doc/effective_go.html)
 
 = Questions
 
-(('tag:center'))http://www.smartlogic.io
+(('tag:center'))smartlogic.io
 
-(('tag:center'))http://www.twitter.com/smartlogic
+(('tag:center'))twitter.com/smartlogic
 
-(('tag:center'))http://www.github.com/smartlogic
+(('tag:center'))github.com/smartlogic
 
-(('tag:center'))http://www.facebook.com/smartlogic
+(('tag:center'))facebook.com/smartlogic
+
+= Thanks!
