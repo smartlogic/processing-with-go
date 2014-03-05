@@ -36,7 +36,7 @@ Go is an open source programming language that makes it easy to build simple, re
 = Features of Go
 
 * Compiled
-* Almost C-like syntax
+* C-ish syntax
 * Built from the ground up to be fast
 * Built to be concurrent
   * Lightweight threads - goroutines
@@ -65,7 +65,7 @@ Go is an open source programming language that makes it easy to build simple, re
 
 = Email Factory
 
-* Sends large amount of emails
+* Sends hundreds of thousands of emails
 * Ruby takes ~400ms per email
 
 = Money Mover
@@ -77,7 +77,7 @@ Go is an open source programming language that makes it easy to build simple, re
 
 Sidekiq/Resque => Goworker
 
-goworker.org/
+goworker.org
 
 = Examples
 
